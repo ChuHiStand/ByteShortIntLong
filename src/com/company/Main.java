@@ -1,0 +1,41 @@
+package com.company;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        int myVale = 1000;
+
+        int myMinIntValue = Integer.MIN_VALUE;
+        int myMaxIntValue = Integer.MAX_VALUE;
+        System.out.println("Integer Minimum Vale = " + myMinIntValue);
+        System.out.println("Integer Max Vale = " + myMaxIntValue);
+
+        // Putting a larger value than what the max value causes an Overflow
+        System.out.println("Busted Max Value = " + (myMaxIntValue + 1));
+        // Putting a value smaller than the minimum value in Java causes an Underflow
+        System.out.println("Busted Max Value = " + (myMaxIntValue + 1));
+        //computer skips back to the minimum or maximum number.
+
+        //another way to write a number albeit not commonly used
+        int differentInt = 1_000_000_000;
+
+        byte myMinByteValue = Byte.MIN_VALUE;
+        byte myMaxByteValue = Byte.MAX_VALUE;
+        System.out.println("Byte Minimum Value = " + myMinByteValue);
+        System.out.println("Byte Maximum Value = " + myMaxByteValue);
+
+        short myMinShortValue = Short.MIN_VALUE;
+        short myMaxShortValue = Short.MAX_VALUE;
+        System.out.println("Short Minimum Value = " + myMinShortValue);
+        System.out.println("Short Maximum Value = " + myMaxShortValue);
+
+        long myLongValue = 100L;
+        long myMinLongValue = Long.MIN_VALUE;
+        long myMaxLongValue = Long.MAX_VALUE;
+        System.out.println("Long Minimum Value = " + myMinLongValue);
+        System.out.println("Long Maximum Value = " + myMaxLongValue);
+
+
+    }
+}
