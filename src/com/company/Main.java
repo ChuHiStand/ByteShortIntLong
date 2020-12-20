@@ -41,5 +41,18 @@ public class Main {
         long myMaxLongValue = Long.MAX_VALUE;
         System.out.println("Long Minimum Value = " + myMinLongValue);
         System.out.println("Long Maximum Value = " + myMaxLongValue);
+
+        short bigShortLiteralValue = 32767;
+        int mytTotal = (myMinIntValue /2);
+        System.out.println(mytTotal);
+
+        //byte myNewByteValue = (myMinByteValue /2); // problem occurs when number bigger than the default number
+
+        //casting can be used to prevent these problems as it converts a number of one type to another.
+        byte myNewByteValue = (byte)(myMinByteValue/2);
+
+        short myNewShortValue = (short)(myMinShortValue /2);
+
     }
+
 }
