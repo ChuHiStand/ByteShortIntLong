@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ByteShortIntLong.iml" filepath="$PROJECT_DIR$/ByteShortIntLong.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FloatAndDouble.iml" filepath="$PROJECT_DIR$/FloatAndDouble.iml" />
     </modules>
   </component>
 </project>
