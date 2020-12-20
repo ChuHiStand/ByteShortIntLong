@@ -53,6 +53,21 @@ public class Main {
 
         short myNewShortValue = (short)(myMinShortValue /2);
 
+
+        //create byte var and set to a valid byte number
+        byte byteNum = 10;
+
+        //create short var and set to valid short number
+        short shortNum = 20;
+
+        //create an int var and set to any valid int number.
+        int intNum = 50;
+
+        //create a long var and make it equal to 50000 plus 10 times the sum of the byte plus the short plus the
+        // integer values.
+
+        long longTotal = 50000L + 10 * ( byteNum + shortNum + intNum);
+        System.out.println(longTotal);
     }
 
 }
