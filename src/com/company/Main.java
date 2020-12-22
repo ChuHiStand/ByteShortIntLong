@@ -72,14 +72,14 @@ public class Main {
         float myMinFloatValue = Float.MIN_VALUE;
         float myMaxFloatValue = Float.MAX_VALUE;
         System.out.println("Float minimum value = " + myMinFloatValue);
-        System.out.println("FLoat max value = " + myMaxFloatValue);
+        System.out.println("Float max value = " + myMaxFloatValue);
 
         double myMinDoubleValue = Double.MIN_VALUE;
         double myMaxDoubleValue = Double.MAX_VALUE;
         System.out.println("Double minimum value = " + myMinDoubleValue);
         System.out.println("Double max value = " + myMaxDoubleValue);
 
-        int myIntValue = 5;
+        int myIntValue = 5 / 2;
         float myFloatValue = (float) 5.25;
         double myDoubleFloatValue = 5.25;
         
