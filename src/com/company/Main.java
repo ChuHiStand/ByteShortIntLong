@@ -82,7 +82,14 @@ public class Main {
         int myIntValue = 5 / 2;
         float myFloatValue = (float) 5.25;
         double myDoubleFloatValue = 5.25;
+        PoundToKg(5);
         
+    }
+
+    public static float PoundToKg(float lb) {
+        //convert input to kg
+        return lb * (float)0.45359236; 
+
     }
 
 }
